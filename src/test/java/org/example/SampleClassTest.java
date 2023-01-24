@@ -11,5 +11,10 @@ class SampleClassTest {
         SampleClass sampleClass = new SampleClass(CHOSEN_NUMBER);
         assertEquals(CHOSEN_NUMBER,sampleClass.getNumber());
     }
+    void newSampleTest(){
+        final int CHOSEN_NUMBER = 5;
+        SampleClass sampleClass = new SampleClass(3);
+        assertEquals(CHOSEN_NUMBER,sampleClass.getNumber());
+    }
 
 }
